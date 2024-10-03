@@ -6,3 +6,5 @@ This project demonstrates a simple Terraform configuration to create a random S3
 Create a file named `main.tf` with the following content:
 
 
+
+
