@@ -26,7 +26,8 @@
     "yzhang.markdown-all-in-one",
     "mhutchie.git-graph",
     "foxundermoon.shell-format",
-    "oderwat.indent-rainbow"
+    "oderwat.indent-rainbow",
+    "knisterpeter.vscode-github"
   ],
   
   "unwantedRecommendations": []
