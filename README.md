@@ -2,6 +2,8 @@
 
 This project demonstrates a simple Terraform configuration to create a random S3 bucket in the Singapore region, which can be used to test Atlantis (Terraform Automation tool) on Amazon Linux.
 
+Testing was successfull.
+
 ## Project Overview
 
 This project sets up Atlantis, a Terraform automation tool, on an Amazon Linux EC2 instance. It includes a basic Terraform configuration to create an S3 bucket with a random name, showcasing how Atlantis can be used to manage infrastructure as code.
