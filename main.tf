@@ -12,7 +12,7 @@ terraform {
   }
 }
 resource "random_pet" "bucket_name" {
-length = 3
+length = 4
 separator = "-"
 }
 resource "aws_s3_bucket" "test_bucket" {
