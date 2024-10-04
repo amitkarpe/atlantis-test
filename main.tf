@@ -11,8 +11,9 @@ terraform {
     profile = "default"
   }
 }
+# Add random length
 resource "random_pet" "bucket_name" {
-  length    = 3
+  length    = 2
   separator = "-"
 }
 resource "aws_s3_bucket" "test_bucket" {
