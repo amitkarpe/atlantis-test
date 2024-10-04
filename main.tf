@@ -1,6 +1,6 @@
 provider "aws" {
-profile = "default"
-region = "ap-southeast-1"
+  profile = "default"
+  region  = "ap-southeast-1"
 }
 ############ SAVING TF STATE FILE #########
 terraform {
@@ -12,9 +12,9 @@ terraform {
   }
 }
 resource "random_pet" "bucket_name" {
-length = 4
-separator = "-"
+  length    = 2
+  separator = "-"
 }
 resource "aws_s3_bucket" "test_bucket" {
-bucket = "atlantis-test-${random_pet.bucket_name.id}"
+  bucket = "atlantis-test-${random_pet.bucket_name.id}"
 }
