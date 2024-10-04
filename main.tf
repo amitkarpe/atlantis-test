@@ -13,7 +13,7 @@ terraform {
 }
 # Add random length
 resource "random_pet" "bucket_name" {
-  length    = 4
+  length    = 2
   separator = "-"
 }
 resource "aws_s3_bucket" "test_bucket" {

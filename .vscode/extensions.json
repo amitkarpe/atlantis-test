@@ -25,7 +25,8 @@
     "donjayamanne.githistory",
     "yzhang.markdown-all-in-one",
     "mhutchie.git-graph",
-    "foxundermoon.shell-format"
+    "foxundermoon.shell-format",
+    "oderwat.indent-rainbow"
   ],
   
   "unwantedRecommendations": []
