@@ -1,0 +1,32 @@
+{
+  "recommendations": [
+    "github.remotehub",
+    "hashicorp.terraform",
+    "ms-vscode-remote.remote-ssh",
+    "GitHub.vscode-pull-request-github",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "hashicorp.hcl",
+    "vintharas.learn-vim",
+    "andenetalexander.vim-cheatsheet",
+    "amazonwebservices.amazon-q-vscode",
+    "amazonwebservices.aws-toolkit-vscode",
+    "johnpapa.vscode-peacock",
+    "wayou.vscode-todo-highlight",
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "gruntfuggly.todo-tree",
+    "github.github-vscode-theme",
+    "vscode-icons-team.vscode-icons",
+    "pkief.material-icon-theme",
+    "dracula-theme.theme-dracula",
+    "eamodio.gitlens",
+    "run-at-scale.terraform-doc-snippets",
+    "donjayamanne.githistory",
+    "yzhang.markdown-all-in-one",
+    "mhutchie.git-graph",
+    "foxundermoon.shell-format"
+  ],
+  
+  "unwantedRecommendations": []
+}
