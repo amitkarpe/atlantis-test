@@ -4,7 +4,6 @@
     "hashicorp.terraform",
     "ms-vscode-remote.remote-ssh",
     "GitHub.vscode-pull-request-github",
-    "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "hashicorp.hcl",
     "vintharas.learn-vim",
@@ -26,7 +25,8 @@
     "yzhang.markdown-all-in-one",
     "mhutchie.git-graph",
     "foxundermoon.shell-format",
-    "oderwat.indent-rainbow"
+    "oderwat.indent-rainbow",
+    "knisterpeter.vscode-github"
   ],
   
   "unwantedRecommendations": []
