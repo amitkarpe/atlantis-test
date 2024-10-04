@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "github.remotehub",
+    "hashicorp.terraform",
+    "ms-vscode-remote.remote-ssh",
+    "GitHub.vscode-pull-request-github"
+  ],
+  
+  "unwantedRecommendations": []
+}
