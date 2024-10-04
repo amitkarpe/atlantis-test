@@ -1,4 +1,5 @@
 # List 
 
 #TODO: More testng with various workflow.
-working on issue7
+* Tested issue and PR workflow.
+* Using Github PR extention it looks good.
