@@ -14,7 +14,7 @@ terraform {
 
 # Add random length
 resource "random_pet" "bucket_name" {
-  length    = 3
+  length    = 4
   separator = "-"
 }
 
