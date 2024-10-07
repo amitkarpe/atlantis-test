@@ -11,10 +11,10 @@ workflows:
       - env:
           name: TF_WORKSPACE
           command: echo $WORKSPACE
-      - run: terragrunt plan -no-color -input=false -lock=false
+      - run: terragrunt plan -no-color -input=false -lock=false -out=$PLANFILE
     apply:
       steps:
       - env:
           name: TF_WORKSPACE
           command: echo $WORKSPACE
-      - run: terragrunt plan -no-color -input=false
+      - run: terragrunt apply -no-color -input=false $PLANFILE --auto-approve
