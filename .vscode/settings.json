@@ -19,7 +19,7 @@
     "titleBar.inactiveForeground": "#15202b99",
     "panel.border": "#65c89b",
     "editorGroup.border": "#65c89b",
-    "editorCursor.foreground": "#ff0000" // Change to a color that stands out for you
+    "editorCursor.foreground": "#ff0000"
   },
   "peacock.remoteColor": "#42b882",
   "editor.cursorStyle": "block",
