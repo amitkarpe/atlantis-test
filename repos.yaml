@@ -1,0 +1,20 @@
+repos:
+  - id: /.*/
+    allowed_overrides: [workflow]
+#    pre_workflow_hooks:
+#      - run: "cat ~/workspace/git/gitops-with-atlantis/atlantis.yaml > atlantis.yaml"
+
+workflows:
+  terragrunt:
+    plan:
+      steps:
+      - env:
+          name: TF_WORKSPACE
+          command: echo $WORKSPACE
+      - run: terragrunt plan -no-color -input=false -lock=false
+    apply:
+      steps:
+      - env:
+          name: TF_WORKSPACE
+          command: echo $WORKSPACE
+      - run: terragrunt plan -no-color -input=false
