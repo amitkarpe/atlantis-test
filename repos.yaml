@@ -1,8 +1,8 @@
 repos:
   - id: /.*/
     allowed_overrides: [workflow]
-    pre_workflow_hooks:
-      - run: "cat ~/workspace/git/gitops-with-atlantis/atlantis.yaml > atlantis.yaml"
+#    pre_workflow_hooks:
+#      - run: "cat ~/workspace/git/gitops-with-atlantis/atlantis.yaml > atlantis.yaml"
 
 workflows:
   terragrunt:
