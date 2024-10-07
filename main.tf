@@ -1,7 +1,7 @@
 provider "aws" {
-  profile = "default"
-  region  = "ap-southeast-1"
+  region = var.region
 }
+
 ############ SAVING TF STATE FILE #########
 terraform {
   backend "s3" {
@@ -11,11 +11,23 @@ terraform {
     profile = "default"
   }
 }
+
 # Add random length
 resource "random_pet" "bucket_name" {
   length    = 3
   separator = "-"
 }
+
 resource "aws_s3_bucket" "test_bucket" {
-  bucket = "atlantis-test-${random_pet.bucket_name.id}"
+  bucket = "${var.bucket_name_prefix}-${random_pet.bucket_name.id}"
+}
+
+variable "region" {
+  type        = string
+  description = "The AWS region to create resources in"
+}
+
+variable "bucket_name_prefix" {
+  type        = string
+  description = "Prefix for the S3 bucket name"
 }
