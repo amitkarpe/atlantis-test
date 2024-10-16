@@ -6,5 +6,4 @@
 * Linking issue with PR is not possible in extention
 * Using Github PR extention it looks good.
 * Configre repo file /etc/atlantis/atlantis.yaml
-* Add s3
 * Add ec2
