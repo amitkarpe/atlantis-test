@@ -7,3 +7,4 @@
 * Using Github PR extention it looks good.
 * Configre repo file /etc/atlantis/atlantis.yaml
 * Add ec2
+* Add ec2
